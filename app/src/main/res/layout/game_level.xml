@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_rect_2"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_rect_4"
+        android:fontFamily="@font/droid"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Game Level"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape_rect_4"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/normalRadioBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:checked="false"
+            android:fontFamily="@font/droid"
+            android:text="Normal"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/mediumRadioBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:checked="false"
+            android:fontFamily="@font/droid"
+            android:text="Midium"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/hardRadioBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:fontFamily="@font/droid"
+            android:gravity="center"
+            android:text="Hard"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </RadioGroup>
+
+</LinearLayout>

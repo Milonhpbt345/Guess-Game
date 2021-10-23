@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GuessGame</string>
+    <string name="bangla">মিলন </string>
+    <string name="english">Milon </string>
+    <string name="show_bn">দেখান</string>
+    <string name="show_en">Show</string>
+    <string name="result_bn">ফলাফল</string>
+    <string name="result_en">Result</string>
+    <string name="toggleButton_bn">টগল বোতাম</string>
+    <string name="toggleButton_en">ToggleButton</string>
+    <string name="toggleButton_off_en">English</string>
+    <string name="toggleButton_off_bn">ইংরেজি</string>
+    <string name="toggleButton_on_en">Bangla</string>
+    <string name="toggleButton_on_bn">বাংলা</string>
+</resources>
